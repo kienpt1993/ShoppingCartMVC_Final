@@ -1,0 +1,325 @@
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll.config
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.pdb
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Web.Infrastructure.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Owin.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\WebGrease.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.pdb
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.pdb
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csprojResolveAssemblyReference.cache
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.dll
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.xml
+E:\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll.config
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.pdb
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Web.Infrastructure.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Owin.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\WebGrease.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.pdb
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.pdb
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csprojResolveAssemblyReference.cache
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.Migrations.InitialCreate.resources
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csproj.GenerateResource.Cache
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll.config
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.pdb
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Web.Infrastructure.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Owin.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\WebGrease.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.pdb
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.pdb
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.xml
+E:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csprojResolveAssemblyReference.cache
+E:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.Migrations.InitialCreate.resources
+E:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csproj.GenerateResource.Cache
+E:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\ColorLife.Core.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\HtmlAgilityPack.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\CKFinder.dll
+E:\ShoppingCartMVC\ShoppingCartMvc\bin\CKFinder.pdb
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll.config
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ShoppingCartMvc.pdb
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\CKFinder.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ColorLife.Core.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\HtmlAgilityPack.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Web.Infrastructure.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Owin.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\WebGrease.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\ShopingCartEF.pdb
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Antlr3.Runtime.pdb
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\CKFinder.pdb
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\EntityFramework.SqlServer.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\Newtonsoft.Json.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\PagedList.Mvc.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Helpers.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Mvc.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Optimization.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.Razor.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\bin\System.Web.WebPages.Razor.xml
+F:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csprojResolveAssemblyReference.cache
+F:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.Migrations.InitialCreate.resources
+F:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csproj.GenerateResource.Cache
+F:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
+F:\ShoppingCartMVC\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb
+F:\GitHub\ShoppingCartMvc\bin\ShoppingCartMvc.dll.config
+F:\GitHub\ShoppingCartMvc\bin\ShoppingCartMvc.dll
+F:\GitHub\ShoppingCartMvc\bin\ShoppingCartMvc.pdb
+F:\GitHub\ShoppingCartMvc\bin\Antlr3.Runtime.dll
+F:\GitHub\ShoppingCartMvc\bin\CKFinder.dll
+F:\GitHub\ShoppingCartMvc\bin\ColorLife.Core.dll
+F:\GitHub\ShoppingCartMvc\bin\EntityFramework.dll
+F:\GitHub\ShoppingCartMvc\bin\EntityFramework.SqlServer.dll
+F:\GitHub\ShoppingCartMvc\bin\HtmlAgilityPack.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.dll
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Web.Infrastructure.dll
+F:\GitHub\ShoppingCartMvc\bin\Newtonsoft.Json.dll
+F:\GitHub\ShoppingCartMvc\bin\Owin.dll
+F:\GitHub\ShoppingCartMvc\bin\PagedList.dll
+F:\GitHub\ShoppingCartMvc\bin\PagedList.Mvc.dll
+F:\GitHub\ShoppingCartMvc\bin\ShopingCartEF.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Helpers.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Mvc.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Optimization.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Razor.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.Razor.dll
+F:\GitHub\ShoppingCartMvc\bin\WebGrease.dll
+F:\GitHub\ShoppingCartMvc\bin\ShopingCartEF.pdb
+F:\GitHub\ShoppingCartMvc\bin\Antlr3.Runtime.pdb
+F:\GitHub\ShoppingCartMvc\bin\CKFinder.pdb
+F:\GitHub\ShoppingCartMvc\bin\EntityFramework.xml
+F:\GitHub\ShoppingCartMvc\bin\EntityFramework.SqlServer.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Core.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Cookies.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Facebook.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Google.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.OAuth.xml
+F:\GitHub\ShoppingCartMvc\bin\Microsoft.Owin.Security.Twitter.xml
+F:\GitHub\ShoppingCartMvc\bin\Newtonsoft.Json.xml
+F:\GitHub\ShoppingCartMvc\bin\PagedList.xml
+F:\GitHub\ShoppingCartMvc\bin\PagedList.Mvc.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Helpers.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Mvc.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Optimization.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Razor.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.Deployment.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.WebPages.Razor.xml
+F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csprojResolveAssemblyReference.cache
+F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.Migrations.InitialCreate.resources
+F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csproj.GenerateResource.Cache
+F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
+F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb

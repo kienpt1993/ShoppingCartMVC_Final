@@ -1,0 +1,72 @@
+﻿@model ShopingCartEF.OrderItem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>OrderItem</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Quantily)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Quantily)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Orther.ShippingMethod)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Orther.ShippingMethod)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Product.ImageUrl)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Product.ImageUrl)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

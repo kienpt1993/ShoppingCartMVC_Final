@@ -1,0 +1,48 @@
+﻿@model ShoppingCartMvc.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="login-form">
+                    <!--login form-->
+                    <h2>Thông tin đăng nhập</h2>
+                    <form action="#">
+                        <input type="email" placeholder="Địa chỉ email">
+                        <input type="text" placeholder="Mật khẩu">
+                        <span>
+                            <input type="checkbox" class="checkbox">
+                            Giữ đăng nhập cho lần sau
+                        </span>
+                        <button type="submit" class="btn btn-default">Đăng nhập</button>
+                    </form>
+                </div><!--/login form-->
+            </div>
+            <div class="col-sm-1">
+                <h2 class="or">OR</h2>
+            </div>
+            <div class="col-sm-4">
+                <div class="signup-form">
+                    <!--sign up form-->
+                   
+                    @using (Html.BeginForm("MyRegister", "CustomerAccount", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        <h2>Tạo tại khoản!</h2>
+
+                        @Html.TextBoxFor(model => model.UserName)
+                        @Html.PasswordFor(model => model.Password)
+                        @Html.PasswordFor(model => model.ConfirmPassword)
+
+                        <button type="submit" class="btn btn-default">Đăng ký</button>
+
+                    }
+                </div><!--/sign up form-->
+            </div>
+        </div>
+    </div>
+</section>

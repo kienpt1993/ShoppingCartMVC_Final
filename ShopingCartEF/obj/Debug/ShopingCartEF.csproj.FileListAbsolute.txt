@@ -1,0 +1,50 @@
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll.config
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.pdb
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.dll
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.xml
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.dll
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.pdb
+E:\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll.config
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.pdb
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.pdb
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll.config
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.pdb
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.dll
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.xml
+E:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.dll
+E:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.pdb
+E:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll.config
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.dll
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\ShopingCartEF.pdb
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.dll
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.xml
+F:\ShoppingCartMVC\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
+F:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
+F:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.dll
+F:\ShoppingCartMVC\ShopingCartEF\obj\Debug\ShopingCartEF.pdb
+F:\GitHub\ShopingCartEF\bin\Debug\ShopingCartEF.dll.config
+F:\GitHub\ShopingCartEF\bin\Debug\ShopingCartEF.dll
+F:\GitHub\ShopingCartEF\bin\Debug\ShopingCartEF.pdb
+F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.dll
+F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
+F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.xml
+F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
+F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
+F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.dll
+F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.pdb

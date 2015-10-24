@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ShopingCartEF.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<script type="text/javascript">
+    function doSubmit(obj) {
+    $(obj).submit();
+}
+</script>
+<ul class="breadcrumb">
+    <li>
+        <i class="icon-home"></i>
+        <a href="@Url.Action("index", "Home") ">Trang chủ</a>
+        <i class="icon-angle-right"></i>
+    </li>
+    <li><a href="@Url.Action("index", "Caegories")">Danh mục sản phẩm</a></li>
+</ul>
+
+<div class="row-fluid sortable ui-sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title="">
+            <h2><i class="halflings-icon user"></i><span class="break"></span>Danh mục</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            <div id="1DataTables_Table_0_wrapper" class="dataTables_wrapper" role="grid">
+                @using (Ajax.BeginForm("index",
+                        new AjaxOptions
+                        {
+                            HttpMethod = "GET",
+                            InsertionMode = InsertionMode.Replace,
+                            UpdateTargetId = "dvAjaxData",
+
+                        }))
+                {
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <div class="dataTables_length" id="DataTables_Table_0_length">
+                                <label>
+                                    <select aria-controls="DataTables_Table_0" size="1" name="pageSize" onchange="return doSubmit('#form0'); ">
+                                        <option selected="selected" value="10">10</option>
+                                        <option value="2">2</option>
+                                        <option value="4">4</option>
+                                        <option value="100">100</option>
+                                    </select> records per page
+                                </label>
+                            </div>
+                        </div><div class="span6">
+                            <div id="DataTables_Table_01_filter" class="dataTables_filter">
+                                <label>Search: <input aria-controls="DataTables_Table_0" type="text" name="keyword" onkeypress="return doSubmit('#form0');"></label>
+                            </div>
+                        </div>
+                    </div>
+                }
+             
+                <div id="dvAjaxData">
+
+                    @{ Html.RenderPartial("_ListCategries", Model);}
+
+                </div>
+
+
+            </div>
+        </div>
+    </div><!--/span-->
+
+</div><!--/row-->
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>

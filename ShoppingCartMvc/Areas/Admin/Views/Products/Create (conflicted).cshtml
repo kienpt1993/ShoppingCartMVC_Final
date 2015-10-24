@@ -1,0 +1,135 @@
+﻿@model ShopingCartEF.Product
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<script src="~/Content/ckeditor/ckeditor.js"></script>
+
+<h2>Create</h2>
+<div class="row-fluid sortable ui-sortable">
+    <div class="box span12">
+        <div class="box-header" data-original-title="">
+            <h2><i class="halflings-icon edit"></i><span class="break"></span>Form Elements</h2>
+            <div class="box-icon">
+                <a href="#" class="btn-setting"><i class="halflings-icon wrench"></i></a>
+                <a href="#" class="btn-minimize"><i class="halflings-icon chevron-up"></i></a>
+                <a href="#" class="btn-close"><i class="halflings-icon remove"></i></a>
+            </div>
+        </div>
+        <div class="box-content">
+            @using (Html.BeginForm("Create", "Products", FormMethod.Post, htmlAttributes: new { @class = "form-horizontal", enctype = "multipart/form-data" }))
+            {
+                <h4>Product</h4>
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.ProductsID)
+                <fieldset>
+
+                    <div class="control-group">
+                        @Html.LabelFor(model => model.CategoryID, "CategoryID", htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="controls">
+                            @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        @Html.LabelFor(model => model.BrandID, "BrandID", htmlAttributes: new { @class = "control-label" })
+                        <div class="controls">
+                            @Html.DropDownList("BrandID", null, htmlAttributes: new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.BrandID, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.SalePrice, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.SalePrice, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.SalePrice, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        @*<textarea id="chitiet" name="chitiet"></textarea>
+                            <script type="text/javascript"> CKEDITOR.replace("chitiet");</script>*@
+
+                        @Html.LabelFor(model => model.Detail, htmlAttributes: new { @class = "control-label col-md-2" })
+                        <div class="controls">
+                            @Html.TextAreaFor(model => model.Detail, new { @id = "chitiet" })
+                            <script type="text/javascript"> CKEDITOR.replace("chitiet");</script>
+                        </div>
+
+
+
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.DateCreated, htmlAttributes: new { @class = "control-label" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.DateCreated, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.DateCreated, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.SortOrder, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                @Html.EditorFor(model => model.SortOrder, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.SortOrder, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            @Html.LabelFor(model => model.IsPublished, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="controls">
+                                <div class="checkbox">
+                                    @Html.EditorFor(model => model.IsPublished)
+                                    @Html.ValidationMessageFor(model => model.IsPublished, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+
+                            <img src="@Model.ImageUrl" width="100" />
+                            @Html.LabelFor(model => model.ImageUrl, new { htmlAttributes = new { @class = "form-control" } })
+                            @*@Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })*@
+                            <div id="uniform-fileInput" class="uploader">
+                                <input class="input-file uniform_on" id="uploadFile" name="uploadFile" type="file">
+                                <span style="-moz-user-select: none;" class="filename">
+                                    No file selected
+                                </span>
+                                <span style="-moz-user-select: none;" class="action">
+                                    Choose File
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                        <button type="reset" class="btn">Cancel</button>
+                        @Html.ActionLink("Back to List", "Index")
+                    </div>
+                </fieldset>
+
+            }
+        </div>
+    </div>
+</div>

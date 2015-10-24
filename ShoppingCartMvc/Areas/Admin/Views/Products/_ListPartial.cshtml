@@ -1,0 +1,76 @@
+﻿@model ColorLife.Core.Mvc.PagedList<ShopingCartEF.Product>
+@using ColorLife.Core.Mvc
+<table aria-describedby="DataTables_Table_0_info1" id="DataTables_Table_01" class="table table-striped table-bordered bootstrap-datatable datatable dataTable">
+    <thead>
+        <tr role="row">
+            <th>Hình ảnh</th>
+            <th aria-label="Username: activate to sort column descending" aria-sort="ascending" style="width: 171px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_0" tabindex="0" role="columnheader" class="sorting_asc">Tên SP</th>
+            <th aria-label="Date registered: activate to sort column ascending" style="width: 248px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_0" tabindex="0" role="columnheader" class="sorting">Mô tả</th>
+            <th aria-label="Role: activate to sort column ascending" style="width: 137px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_0" tabindex="0" role="columnheader" class="sorting">Role</th>
+            <th aria-label="Status: activate to sort column ascending" style="width: 144px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_0" tabindex="0" role="columnheader" class="sorting">Status</th>
+            <th aria-label="Actions: activate to sort column ascending" style="width: 288px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_0" tabindex="0" role="columnheader" class="sorting">Actions</th>
+        </tr>
+    </thead>
+
+    <tbody aria-relevant="all" aria-live="polite" role="alert">
+        @foreach (var item in Model)
+        {
+            <tr class="odd">
+                <td class="  sorting_1">
+                    <img src="@item.ImageUrl" width="48" />
+                </td>
+                <td class="  sorting_1">
+                    @item.Name
+                </td>
+                <td class="center ">
+
+                   @item.Description
+                </td>
+                <td class="center ">Member</td>
+                <td class="center ">
+                    <span class="label label-success">Active</span>
+                </td>
+                <td class="center ">
+
+                    <a class="btn btn-success" href="@Url.Action("Details", "Products", new { id=item.ProductsID })">
+                        <i class="halflings-icon white zoom-in"></i>
+                    </a>
+                    <a class="btn btn-info" href="@Url.Action("Edit", "Products", new { id=item.ProductsID })">
+                        <i class="halflings-icon white edit"></i>
+                    </a>
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Products", new { id=item.ProductsID })">
+                        <i class="halflings-icon white trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>
+<div class="row-fluid">
+    <div class="col-md-4">
+        <div id="DataTables_Table_01_info" class="dataTables_info">
+
+            Hiển thị @Model.StartRecordIndex đến @Model.EndRecordIndex của @Model.TotalItemCount bản tin
+        </div>
+    </div>
+    <div class="col-md-8 center">
+        <div class="dataTables_paginate paging_bootstrap pagination">            
+            @Html.AjaxPager(
+                Model, new PagerOptions()
+                {
+                    PageIndexParameterName = "page",
+                    ShowDisabledPagerItems = false,
+                    AlwaysShowFirstLastPageNumber = true
+                },
+                new AjaxOptions
+                {
+                    UpdateTargetId = "dvAjaxData",
+                    LoadingElementId = "loading",
+                    
+                })
+        </div>
+    </div>
+</div>

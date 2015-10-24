@@ -1,0 +1,10 @@
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\ShopingCartEF.dll.config
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\ShopingCartEF.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\ShopingCartEF.pdb
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\EntityFramework.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\EntityFramework.SqlServer.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\EntityFramework.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\bin\Release\EntityFramework.SqlServer.xml
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Release\ShopingCartEF.csprojResolveAssemblyReference.cache
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Release\ShopingCartEF.dll
+D:\surdoc\SurDoc Universal Sync\GitMVC\ShoppingCartMVC\ShopingCartEF\obj\Release\ShopingCartEF.pdb

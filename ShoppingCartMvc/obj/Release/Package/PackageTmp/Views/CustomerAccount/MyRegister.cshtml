@@ -1,0 +1,67 @@
+﻿@model ShopingCartEF.Customer
+@{
+    ViewBag.Title = "Index";
+}
+
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="login-form">
+                    <!--login form-->
+                    <h2>Thông tin đăng nhập</h2>
+                    @using (Html.BeginForm("MyLogin", "CustomerAccount", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.Phone)
+                        @Html.HiddenFor(model => model.CustomerID)
+                        @Html.HiddenFor(model => model.DOB)
+                        @*@Html.HiddenFor(model => model.Adress)
+                        @Html.HiddenFor(model => model.Name)*@
+                        @Html.AntiForgeryToken()
+
+                        @*@Html.TextBoxFor(model => model.Name, htmlAttributes: new { @placeholder = "Tên khách hàng" })*@
+                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email" })
+
+                        @Html.PasswordFor(model => model.Password, htmlAttributes: new { @placeholder = "Mật khẩu" })
+
+
+                        <span>
+                            <input type="checkbox" class="checkbox">
+                            Giữ đăng nhập cho lần sau
+                        </span>
+                        <button type="submit" class="btn btn-default">Đăng nhập</button>
+
+                    }
+
+                </div><!--/login form-->
+            </div>
+            <div class="col-sm-1">
+                <h2 class="or">OR</h2>
+            </div>
+            <div class="col-sm-4">
+                <div class="signup-form">
+                    <!--sign up form-->
+                    @using (Html.BeginForm("MyRegister", "CustomerAccount", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.Phone)
+                        @Html.HiddenFor(model => model.CustomerID)
+                        @*@Html.HiddenFor(model => model.DOB)
+                        @Html.HiddenFor(model => model.Adress)*@
+                        @Html.AntiForgeryToken()
+                        <h2>Tạo tại khoản!</h2>
+
+                        @Html.TextBoxFor(model => model.Name, htmlAttributes: new { @placeholder = "Tên khách hàng" })
+                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email" })
+
+                        @Html.PasswordFor(model => model.Password, htmlAttributes: new { @placeholder = "Mật khẩu" })
+
+
+                        <button type="submit" class="btn btn-default">Đăng ký</button>
+
+                    }
+                </div><!--/sign up form-->
+            </div>
+        </div>
+    </div>
+</section>

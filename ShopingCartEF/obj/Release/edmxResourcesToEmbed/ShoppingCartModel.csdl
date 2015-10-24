@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ShoppingCartModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="ShoppingCartEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Band_Product" EntityType="ShoppingCartModel.Band_Product" />
+    <EntitySet Name="Brands" EntityType="ShoppingCartModel.Brand" />
+    <EntitySet Name="Categories" EntityType="ShoppingCartModel.Category" />
+    <EntitySet Name="Customers" EntityType="ShoppingCartModel.Customer" />
+    <EntitySet Name="Images" EntityType="ShoppingCartModel.Image" />
+    <EntitySet Name="News" EntityType="ShoppingCartModel.News" />
+    <EntitySet Name="OrderItems" EntityType="ShoppingCartModel.OrderItem" />
+    <EntitySet Name="Pages" EntityType="ShoppingCartModel.Page" />
+    <EntitySet Name="PaymenMethods" EntityType="ShoppingCartModel.PaymenMethod" />
+    <EntitySet Name="Products" EntityType="ShoppingCartModel.Product" />
+    <AssociationSet Name="FK_Band_Product_Brand" Association="ShoppingCartModel.FK_Band_Product_Brand">
+      <End Role="Brand" EntitySet="Brands" />
+      <End Role="Band_Product" EntitySet="Band_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Band_Product_Products" Association="ShoppingCartModel.FK_Band_Product_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Band_Product" EntitySet="Band_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Brand" Association="ShoppingCartModel.FK_Products_Brand">
+      <End Role="Brand" EntitySet="Brands" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Category" Association="ShoppingCartModel.FK_Products_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Image_Products" Association="ShoppingCartModel.FK_Image_Products">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Image" EntitySet="Images" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderItem_Producct" Association="ShoppingCartModel.FK_OrderItem_Producct">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="OrderItem" EntitySet="OrderItems" />
+    </AssociationSet>
+    <EntitySet Name="Orthers" EntityType="ShoppingCartModel.Orther" />
+    <AssociationSet Name="FK_Orther_Customer" Association="ShoppingCartModel.FK_Orther_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Orther" EntitySet="Orthers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderItem_Orther" Association="ShoppingCartModel.FK_OrderItem_Orther">
+      <End Role="Orther" EntitySet="Orthers" />
+      <End Role="OrderItem" EntitySet="OrderItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orther_PaymenMethods" Association="ShoppingCartModel.FK_Orther_PaymenMethods">
+      <End Role="PaymenMethod" EntitySet="PaymenMethods" />
+      <End Role="Orther" EntitySet="Orthers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Band_Product">
+    <Key>
+      <PropertyRef Name="BrandID" />
+      <PropertyRef Name="ProductsID" />
+    </Key>
+    <Property Name="BrandID" Type="Int32" Nullable="false" />
+    <Property Name="ProductsID" Type="Int32" Nullable="false" />
+    <Property Name="Note" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Brand" Relationship="ShoppingCartModel.FK_Band_Product_Brand" FromRole="Band_Product" ToRole="Brand" />
+    <NavigationProperty Name="Product" Relationship="ShoppingCartModel.FK_Band_Product_Products" FromRole="Band_Product" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="BrandID" />
+    </Key>
+    <Property Name="BrandID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Band_Product" Relationship="ShoppingCartModel.FK_Band_Product_Brand" FromRole="Brand" ToRole="Band_Product" />
+    <NavigationProperty Name="Products" Relationship="ShoppingCartModel.FK_Products_Brand" FromRole="Brand" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="SortOrder" Type="Int32" />
+    <Property Name="IsPublished" Type="Boolean" />
+    <NavigationProperty Name="Products" Relationship="ShoppingCartModel.FK_Products_Category" FromRole="Category" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="Int32" />
+    <Property Name="DOB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Adress" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orthers" Relationship="ShoppingCartModel.FK_Orther_Customer" FromRole="Customer" ToRole="Orther" />
+  </EntityType>
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="ImageID" />
+    </Key>
+    <Property Name="ImageID" Type="Int32" Nullable="false" />
+    <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ProductID" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="ShoppingCartModel.FK_Image_Products" FromRole="Image" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="NewsID" />
+    </Key>
+    <Property Name="NewsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImageUrl" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="CreateDate" Type="DateTime" Precision="3" />
+    <Property Name="Author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Hits" Type="Int32" />
+  </EntityType>
+  <EntityType Name="OrderItem">
+    <Key>
+      <PropertyRef Name="OrtherID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="OrtherID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Int64" />
+    <Property Name="Quantily" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="ShoppingCartModel.FK_OrderItem_Producct" FromRole="OrderItem" ToRole="Product" />
+    <NavigationProperty Name="Orther" Relationship="ShoppingCartModel.FK_OrderItem_Orther" FromRole="OrderItem" ToRole="Orther" />
+  </EntityType>
+  <EntityType Name="Page">
+    <Key>
+      <PropertyRef Name="PageID" />
+    </Key>
+    <Property Name="PageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Alias" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Content" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="PaymenMethod">
+    <Key>
+      <PropertyRef Name="PaymenMethodsID" />
+    </Key>
+    <Property Name="PaymenMethodsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Orthers" Relationship="ShoppingCartModel.FK_Orther_PaymenMethods" FromRole="PaymenMethod" ToRole="Orther" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductsID" />
+    </Key>
+    <Property Name="ProductsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="BrandID" Type="Int32" />
+    <Property Name="ImageUrl" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <Property Name="SalePrice" Type="Double" />
+    <Property Name="Detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Precision="3" />
+    <Property Name="SortOrder" Type="Int32" />
+    <Property Name="IsPublished" Type="Boolean" />
+    <NavigationProperty Name="Band_Product" Relationship="ShoppingCartModel.FK_Band_Product_Products" FromRole="Product" ToRole="Band_Product" />
+    <NavigationProperty Name="Brand" Relationship="ShoppingCartModel.FK_Products_Brand" FromRole="Product" ToRole="Brand" />
+    <NavigationProperty Name="Category" Relationship="ShoppingCartModel.FK_Products_Category" FromRole="Product" ToRole="Category" />
+    <NavigationProperty Name="Images" Relationship="ShoppingCartModel.FK_Image_Products" FromRole="Product" ToRole="Image" />
+    <NavigationProperty Name="OrderItems" Relationship="ShoppingCartModel.FK_OrderItem_Producct" FromRole="Product" ToRole="OrderItem" />
+  </EntityType>
+  <Association Name="FK_Band_Product_Brand">
+    <End Type="ShoppingCartModel.Brand" Role="Brand" Multiplicity="1" />
+    <End Type="ShoppingCartModel.Band_Product" Role="Band_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brand">
+        <PropertyRef Name="BrandID" />
+      </Principal>
+      <Dependent Role="Band_Product">
+        <PropertyRef Name="BrandID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Band_Product_Products">
+    <End Type="ShoppingCartModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="ShoppingCartModel.Band_Product" Role="Band_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductsID" />
+      </Principal>
+      <Dependent Role="Band_Product">
+        <PropertyRef Name="ProductsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Brand">
+    <End Type="ShoppingCartModel.Brand" Role="Brand" Multiplicity="0..1" />
+    <End Type="ShoppingCartModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Brand">
+        <PropertyRef Name="BrandID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="BrandID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Category">
+    <End Type="ShoppingCartModel.Category" Role="Category" Multiplicity="0..1" />
+    <End Type="ShoppingCartModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Image_Products">
+    <End Type="ShoppingCartModel.Product" Role="Product" Multiplicity="0..1" />
+    <End Type="ShoppingCartModel.Image" Role="Image" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductsID" />
+      </Principal>
+      <Dependent Role="Image">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderItem_Producct">
+    <End Type="ShoppingCartModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="ShoppingCartModel.OrderItem" Role="OrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="ProductsID" />
+      </Principal>
+      <Dependent Role="OrderItem">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Orther">
+    <Key>
+      <PropertyRef Name="OrtherID" />
+    </Key>
+    <Property Name="OrtherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="DateOrdered" Type="DateTime" Precision="3" />
+    <Property Name="DateRicived" Type="DateTime" Precision="3" />
+    <Property Name="ShippingMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PaymentMethod" Type="Int32" />
+    <Property Name="PaymentType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Amout" Type="Double" />
+    <NavigationProperty Name="Customer" Relationship="ShoppingCartModel.FK_Orther_Customer" FromRole="Orther" ToRole="Customer" />
+    <NavigationProperty Name="OrderItems" Relationship="ShoppingCartModel.FK_OrderItem_Orther" FromRole="Orther" ToRole="OrderItem" />
+    <NavigationProperty Name="PaymenMethod" Relationship="ShoppingCartModel.FK_Orther_PaymenMethods" FromRole="Orther" ToRole="PaymenMethod" />
+  </EntityType>
+  <Association Name="FK_Orther_Customer">
+    <End Type="ShoppingCartModel.Customer" Role="Customer" Multiplicity="0..1" />
+    <End Type="ShoppingCartModel.Orther" Role="Orther" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Orther">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderItem_Orther">
+    <End Type="ShoppingCartModel.Orther" Role="Orther" Multiplicity="1" />
+    <End Type="ShoppingCartModel.OrderItem" Role="OrderItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orther">
+        <PropertyRef Name="OrtherID" />
+      </Principal>
+      <Dependent Role="OrderItem">
+        <PropertyRef Name="OrtherID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orther_PaymenMethods">
+    <End Type="ShoppingCartModel.PaymenMethod" Role="PaymenMethod" Multiplicity="0..1" />
+    <End Type="ShoppingCartModel.Orther" Role="Orther" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymenMethod">
+        <PropertyRef Name="PaymenMethodsID" />
+      </Principal>
+      <Dependent Role="Orther">
+        <PropertyRef Name="PaymentMethod" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

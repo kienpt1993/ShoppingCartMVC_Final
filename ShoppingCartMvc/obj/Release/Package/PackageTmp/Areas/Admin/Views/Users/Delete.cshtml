@@ -1,0 +1,62 @@
+﻿@model Microsoft.AspNet.Identity.EntityFramework.IdentityUser
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="widget widget-blue">
+    <div class="widget-title">
+        <div class="widget-controls">
+            <a data-original-title="Full Screen" title="" data-placement="top" data-toggle="tooltip" class="widget-control widget-control-full-screen" href="#"><i class="fa fa-expand"></i></a>
+            <a data-original-title="Exit Full Screen" title="" data-placement="left" data-toggle="tooltip" class="widget-control widget-control-full-screen widget-control-show-when-full" href="#"><i class="fa fa-expand"></i></a>
+            <a class="widget-control widget-control-settings" data-toggle="dropdown" href="#"><i class="fa fa-cog"></i></a>
+            <div data-original-title="Settings" title="" data-placement="top" data-toggle="tooltip" class="dropdown">
+                <ul aria-labelledby="dropdownMenu1" role="menu" class="dropdown-menu dropdown-menu-small">
+                    <li class="dropdown-header">Set Widget Color</li>
+                    <li><a href="#" class="set-widget-color" data-widget-color="blue">Blue</a></li>
+                    <li><a href="#" class="set-widget-color" data-widget-color="red">Red</a></li>
+                    <li><a href="#" class="set-widget-color" data-widget-color="green">Green</a></li>
+                    <li><a href="#" class="set-widget-color" data-widget-color="orange">Orange</a></li>
+                    <li><a href="#" class="set-widget-color" data-widget-color="purple">Purple</a></li>
+                </ul>
+            </div>
+            <a data-original-title="Refresh" title="" data-placement="top" data-toggle="tooltip" class="widget-control widget-control-refresh" href="#"><i class="fa fa-refresh"></i></a>
+            <a data-original-title="Minimize" title="" data-placement="top" data-toggle="tooltip" class="widget-control widget-control-minimize" href="#"><i class="fa fa-minus-circle"></i></a>
+            <a data-original-title="Remove" title="" data-placement="top" data-toggle="tooltip" class="widget-control widget-control-remove" href="#"><i class="fa fa-times-circle"></i></a>
+        </div>
+        <h3><i class="fa fa-ok-circle"></i>Xóa</h3>
+    </div>
+    <div class="widget-content">
+        <h3>Bạn có chắc chắn muốn xóa?</h3>
+        <div>
+           
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Email)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Email)
+                </dd>
+
+                
+
+                 
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color">
+                    <input type="submit" value="Xóa" class="btn btn-default" /> |
+                    @Html.ActionLink("Quay lại", "Index")
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+

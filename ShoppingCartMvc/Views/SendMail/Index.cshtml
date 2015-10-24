@@ -1,0 +1,37 @@
+﻿@model ShoppingCartMvc.Models.ContactModel
+@{
+    ViewBag.Title = "Index";
+}
+<section id="form">
+    <!--form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-1">
+                <div class="login-form">
+                    <!--login form-->
+                    <h2>Nội dung email</h2>
+                   @using (Html.BeginForm("Index", "SendMail", FormMethod.Post))
+                   {
+                        @Html.ValidationSummary(true)
+                       // @Html.HiddenFor(model => model.UserName)
+                        //@Html.HiddenFor(model => model.Email)
+                        @*@Html.HiddenFor(model => model.Subject)
+                        @Html.HiddenFor(model => model.Message)*@
+                        @Html.AntiForgeryToken()
+
+                        @Html.TextBoxFor(model => model.UserName, htmlAttributes: new { @placeholder = "Tên đăng nhập" })
+                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email" })
+                        @Html.TextBoxFor(model => model.Subject, htmlAttributes: new { @placeholder = "Tiều đề" })
+                        @Html.TextAreaFor(model => model.Message,10,15, htmlAttributes: new { @placeholder = "Nội dung" })
+                       
+                        <button type="submit" class="btn btn-default">Gửi</button>
+
+                   }
+                </div><!--/login form-->
+            </div>
+          
+          
+        </div>
+    </div>
+</section>
+</html>

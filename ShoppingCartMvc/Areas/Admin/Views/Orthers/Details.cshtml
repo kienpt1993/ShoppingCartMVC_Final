@@ -1,0 +1,82 @@
+﻿@model ShopingCartEF.Orther
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Orther</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOrdered)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOrdered)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateRicived)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateRicived)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShippingMethod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShippingMethod)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amout)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amout)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymenMethod.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymenMethod.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrtherID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
