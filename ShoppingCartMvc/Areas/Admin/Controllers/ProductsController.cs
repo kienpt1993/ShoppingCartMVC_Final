@@ -11,7 +11,7 @@ using ColorLife.Core.Mvc;
 
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductsController : BaseController
     {
         private ShoppingCartEntities db = new ShoppingCartEntities();
         // GET: Admin/Products

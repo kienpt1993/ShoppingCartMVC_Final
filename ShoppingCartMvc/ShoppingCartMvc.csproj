@@ -194,6 +194,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\Band_ProductController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
     <Compile Include="Areas\Admin\Controllers\BrandsController.cs" />
     <Compile Include="Areas\Admin\Controllers\CalendarController.cs" />
     <Compile Include="Areas\Admin\Controllers\CategoriesController.cs" />
@@ -225,6 +226,7 @@
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\SendMailController.cs" />
     <Compile Include="Controllers\viduController.cs" />
+    <Compile Include="Filters\CustomerLoginFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1587,10 +1589,6 @@
     <Content Include="Views\Brand_Product\Details.cshtml" />
     <Content Include="Views\Brand_Product\Edit.cshtml" />
     <Content Include="Views\Brand_Product\Index.cshtml" />
-    <Content Include="Views\Customer\Create.cshtml" />
-    <Content Include="Views\Customer\Delete.cshtml" />
-    <Content Include="Views\Customer\Details.cshtml" />
-    <Content Include="Views\Customer\Edit.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Image\Create.cshtml" />
     <Content Include="Views\Image\Delete.cshtml" />
@@ -1633,10 +1631,16 @@
     <Content Include="Views\Shared\_MyLoginPartial.cshtml" />
     <Content Include="Views\vidu\Index.cshtml" />
     <Content Include="Views\SendMail\Index.cshtml" />
+    <Content Include="Views\Customer\Login.cshtml" />
+    <Content Include="Views\Customer\MyProfile.cshtml" />
+    <Content Include="Views\Customer\ChangePassword.cshtml" />
+    <Content Include="Views\Customer\FogotPassword.cshtml" />
+    <Content Include="Views\Customer\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\Base\" />
     <Folder Include="Views\SendMailController\" />
   </ItemGroup>
   <ItemGroup>

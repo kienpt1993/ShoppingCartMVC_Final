@@ -22,13 +22,21 @@ namespace ShopingCartEF
         [Display(Name ="ID")]
         [Required(ErrorMessage ="Bắt buộc nhập")]
         public int CategoryID { get; set; }
+
         [Display(Name ="Tên danh mục")]
+        [Required(ErrorMessage ="Tên bắt buộc nhập")]
         public string Name { get; set; }
         [Display(Name ="Mô tả chi tiết")]
+
+
         public string Description { get; set; }
+
         [Display(Name ="Hình ảnh")]
-        [DataType(DataType.ImageUrl)]
+        [DataType(DataType.ImageUrl, ErrorMessage ="Sai định dạng ảnh")]
+          [Required(ErrorMessage ="Bắt buộc chọn ảnh")]
         public string ImageUrl { get; set; }
+
+
         [Display(Name ="ID danh mục cha")]
         [Required (ErrorMessage ="Bắt buộc nhập")]
         public Nullable<int> ParentID { get; set; }

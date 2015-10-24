@@ -15,7 +15,7 @@ using ShoppingCartMvc.Models;
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
    // [Authorize(Roles="Admin")]
-    public class UsersController : Controller
+    public class UsersController : BaseController
     {
         private IdentityDbContext db = new IdentityDbContext();
 

@@ -40,7 +40,7 @@
                 <fieldset>
                     <div class="control-group">
 
-                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label  " })
+                        @Html.LabelFor(model => model.Name,  htmlAttributes: new { @class = "control-label  " })
                         <div class="controls">
                             @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control span6" } })
                             @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
@@ -75,7 +75,8 @@
                         </div>
                     </div>
                     <div class="control-group">
-                        @Html.LabelFor(model => model.ImageUrl, htmlAttributes: new { @class = "control-label col-md-2" })
+                        
+                        
                         <div class="controls">
                            <img src=""  id="imagePreview" width="100"/>
                         </div>
@@ -86,21 +87,9 @@
                             @Html.EditorFor(model => model.ImageUrl)
                             <button id="btnImage" class="btn btn-primary" type="button">Chọn ảnh đại diện </button>
                             @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
-                            <div class="controls">
-                               <input  type="text" name="ImageGallery"/> 
-                                <button id="btnImage" name=" " class="btn btn-primary" type="button">Chọn ảnh kèm theo</button>
-                                @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
-                            </div>
-                            <div class="controls">
-                                <input type="text" name="ImageGallery" /> 
-                                <button id="btnImage" class="btn btn-primary" type="button">Chọn ảnh kèm theo</button>
-                                @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
-                            </div>
-                            <div class="controls">
-                                <input type="text" name="ImageGallery" />
-                                <button id="btnImage" class="btn btn-primary" type="button">Chọn ảnh kèm theo</button>
-                                @Html.ValidationMessageFor(model => model.ImageUrl, "", new { @class = "text-danger" })
-                            </div>
+                           
+                         
+                            
                         </div>
                     </div>
 

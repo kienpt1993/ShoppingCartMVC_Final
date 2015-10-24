@@ -6,12 +6,11 @@ using System.Web.Mvc;
 
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
-    public class MessagesController : BaseController
+    [Authorize]
+   
+    public class BaseController : Controller
     {
-        // GET: Admin/Messages
-        public ActionResult Index()
-        {
-            return View();
-        }
+        // GET: Admin/Base
+       
     }
 }

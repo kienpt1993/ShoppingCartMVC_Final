@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
-    public class TasksController : Controller
+    public class TasksController : BaseController
     {
         // GET: Admin/Tasks
         public ActionResult Index()

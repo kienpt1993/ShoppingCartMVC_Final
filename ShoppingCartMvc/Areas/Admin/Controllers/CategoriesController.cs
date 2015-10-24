@@ -14,7 +14,7 @@ using System.Text;
 
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
-    public class CategoriesController : Controller
+    public class CategoriesController : BaseController
     {
         private ShoppingCartEntities db = new ShoppingCartEntities();
 

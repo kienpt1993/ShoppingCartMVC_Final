@@ -10,7 +10,7 @@ using ShopingCartEF;
 
 namespace ShoppingCartMvc.Areas.Admin.Controllers
 {
-    public class BrandsController : Controller
+    public class BrandsController : BaseController
     {
         private ShoppingCartEntities db = new ShoppingCartEntities();
 

@@ -63,6 +63,7 @@ namespace ShoppingCartMvc.Controllers
                 var v = db.Customers.Where(a => a.Email.Equals(cus.Email) && a.Password.Equals(cus.Password)).FirstOrDefault();
                 if (v != null)
                 {
+                    Session["Customer"] = v;
                     Session["UserName"] = v.Name.ToString();
                     Session["Login"] = true;
                     return RedirectToLocal(returnUrl);
