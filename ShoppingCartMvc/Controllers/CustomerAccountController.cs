@@ -26,6 +26,7 @@ namespace ShoppingCartMvc.Controllers
             return RedirectToAction("Index", "Home");
           
         }
+
         // Action nayxu ly, khong hien thi
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -36,7 +37,25 @@ namespace ShoppingCartMvc.Controllers
                 using (ShoppingCartEntities db = new ShoppingCartEntities())
                 {
                     db.Customers.Add(customer);
-                    db.SaveChanges();
+                    int result = db.SaveChanges();
+                    if (result >0)
+                    {
+                        System.Net.Mail.MailMessage m = new System.Net.Mail.MailMessage(
+                            new System.Net.Mail.MailAddress("luckyboyuit06@gmail.com", "Web Registration"),
+                            new System.Net.Mail.MailAddress(customer.Email));
+                        m.Subject = "Email confirmation";
+                        m.Body = string.Format("Dear {0}<BR/>Thank you for your registration, please click on the below link to comlete your registration: <a href=\"{1}\" title=\"User Email Confirm\">{1}</a>", customer.Email, Url.Action("ConfirmEmail", "Account", new { Token = customer.CustomerID, Email = customer.Email }, Request.Url.Scheme));
+                        m.IsBodyHtml = true;
+                        System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com");
+                        smtp.Credentials = new System.Net.NetworkCredential("luckyboyuit06@gmail.com", "fxiabhvdgejdcexf");
+                        smtp.EnableSsl = true;
+                        smtp.Send(m);
+                        return RedirectToAction("Confirm", "Account", new { Email = customer.Email });
+                    }
+                    else
+                    {
+                        
+                    }
 
                 }
             }

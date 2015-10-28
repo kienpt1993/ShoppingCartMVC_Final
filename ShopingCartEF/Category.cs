@@ -22,10 +22,11 @@ namespace ShopingCartEF
         [Display(Name ="ID")]
         [Required(ErrorMessage ="Bắt buộc nhập")]
         public int CategoryID { get; set; }
-
+        // metadata, validation
         [Display(Name ="Tên danh mục")]
         [Required(ErrorMessage ="Tên bắt buộc nhập")]
         public string Name { get; set; }
+        
         [Display(Name ="Mô tả chi tiết")]
 
 

@@ -11,7 +11,7 @@
                 <div class="login-form">
                     <!--login form-->
                     <h2>Thông tin đăng nhập</h2>
-                    @using (Html.BeginForm("MyLogin", "CustomerAccount", FormMethod.Post))
+                    @using (Html.BeginForm("Login", "Customer", FormMethod.Post))
                     {
                         @Html.HiddenFor(model => model.Phone)
                         @Html.HiddenFor(model => model.CustomerID)
@@ -21,7 +21,7 @@
                         @Html.AntiForgeryToken()
 
                         @*@Html.TextBoxFor(model => model.Name, htmlAttributes: new { @placeholder = "Tên khách hàng" })*@
-                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email" })
+                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { autofocus = "autofocus", @placeholder = "Địa chỉ email",  })
 
                         @Html.PasswordFor(model => model.Password, htmlAttributes: new { @placeholder = "Mật khẩu" })
 
@@ -52,7 +52,15 @@
                         <h2>Tạo tại khoản!</h2>
 
                         @Html.TextBoxFor(model => model.Name, htmlAttributes: new { @placeholder = "Tên khách hàng" })
-                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email" })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+                        @Html.TextBoxFor(model => model.Email, htmlAttributes: new { @placeholder = "Địa chỉ email",          @onchange = "return checkEmail(this);" })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+
+                        
+                     
+                         <span id="thongbao"></span>
+                         
 
                         @Html.PasswordFor(model => model.Password, htmlAttributes: new { @placeholder = "Mật khẩu" })
 
@@ -65,3 +73,44 @@
         </div>
     </div>
 </section>
+<script type="text/javascript">
+    function validateEmail(email) {
+        var reg = /^([A-Za-z0-9_\-\.])+\@@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        return reg.test(email);
+    }
+    function checkEmail(obj) {
+        var email = obj.value;
+        if (validateEmail(email)) {
+
+
+
+            $.ajax({
+                url: '/Customer/CheckEmailExists?email=' + email,
+                data: '',
+                type: 'GET',
+                beforeSend: function () {
+                    // alert('Loading....');
+                    $('#thongbao').text('Checking...');
+                },
+                success: function (result) {
+                    if (result === true) {
+                        $('#thongbao').text('Email đã tồn tại, vui lòng chọn email khác...<br/>Bạn có thể dụng email :' + email + 'afahfkaf');
+                        $('#thongbao').css('color', 'red');
+                    }
+                    else {
+                        $('#thongbao').text('Bạn có thể sử dụng email này...');
+                        $('#thongbao').css('color', 'green');
+                    }
+                    // alert(result);
+                },
+                error: function (error) {
+                    alert(error.responseText);
+                }
+            });
+        }
+        else {
+            $('#thongbao').text('Email không đúng định dạng...');
+            $('#thongbao').css('color', 'red');
+        }
+    }
+</script>
