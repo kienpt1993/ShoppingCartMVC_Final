@@ -59,7 +59,7 @@ namespace ShoppingCartMvc.Areas.Admin.Controllers
             }
 
             ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "Name", orther.CustomerID);
-            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymentMethod);
+            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymenMethodsID);
             return View(orther);
         }
 
@@ -76,7 +76,7 @@ namespace ShoppingCartMvc.Areas.Admin.Controllers
                 return HttpNotFound();
             }
             ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "Name", orther.CustomerID);
-            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymentMethod);
+            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymenMethodsID); 
             return View(orther);
         }
 
@@ -94,7 +94,7 @@ namespace ShoppingCartMvc.Areas.Admin.Controllers
                 return RedirectToAction("Index");
             }
             ViewBag.CustomerID = new SelectList(db.Customers, "CustomerID", "Name", orther.CustomerID);
-            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymentMethod);
+            ViewBag.PaymentMethod = new SelectList(db.PaymenMethods, "PaymenMethodsID", "Name", orther.PaymenMethodsID);
             return View(orther);
         }
 

@@ -45,6 +45,6 @@ F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.dll
 F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.dll
 F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.xml
 F:\GitHub\ShopingCartEF\bin\Debug\EntityFramework.SqlServer.xml
-F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache
 F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.dll
 F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.pdb
+F:\GitHub\ShopingCartEF\obj\Debug\ShopingCartEF.csprojResolveAssemblyReference.cache

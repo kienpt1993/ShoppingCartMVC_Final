@@ -6,12 +6,15 @@ using System.Web.Mvc;
 
 namespace ShoppingCartMvc.Controllers
 {
-    public class viduController : Controller
+    public class DemoAPIController : Controller
     {
-        // GET: vidu
+
+        // GET: DemoAPI
         public ActionResult Index()
         {
             return View();
         }
+
+        // CRUD
     }
 }

@@ -32,6 +32,10 @@ namespace ShopingCartEF
         public virtual DbSet<Page> Pages { get; set; }
         public virtual DbSet<PaymenMethod> PaymenMethods { get; set; }
         public virtual DbSet<Product> Products { get; set; }
+
+
         public virtual DbSet<Orther> Orthers { get; set; }
+
+        public virtual DbSet<Student> Students { get; set; }
     }
 }

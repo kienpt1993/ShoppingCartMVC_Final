@@ -54,6 +54,7 @@
     <Compile Include="Brand.cs" />
     <Compile Include="Category.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Student.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="News.cs" />
     <Compile Include="OrderItem.cs" />

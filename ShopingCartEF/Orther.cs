@@ -19,19 +19,19 @@ namespace ShopingCartEF
         {
             this.OrderItems = new HashSet<OrderItem>();
         }
-    [Key]
+        [Key]
         public int OrtherID { get; set; }
-        public Nullable<int> CustomerID { get; set; }
-        public Nullable<System.DateTime> DateOrdered { get; set; }
-        public Nullable<System.DateTime> DateRicived { get; set; }
+        public int? CustomerID { get; set; }
+        public DateTime? DateOrdered { get; set; }
+        public DateTime? DateRicived { get; set; }
         public string ShippingMethod { get; set; }
-        public Nullable<int> PaymentMethod { get; set; }
+        public int? PaymenMethodsID { get; set; }
         public string PaymentType { get; set; }
         public string Status { get; set; }
-        public Nullable<double> Amout { get; set; }
-    
+        public double? Amout { get; set; }
+
         public virtual Customer Customer { get; set; }
         public virtual ICollection<OrderItem> OrderItems { get; set; }
-        public virtual PaymenMethod PaymenMethod { get; set; }
+         public virtual PaymenMethod PaymenMethod { get; set; }
     }
 }

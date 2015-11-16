@@ -12,17 +12,16 @@ namespace ShopingCartEF
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
-    public partial class PaymenMethod
+    [Table("Student")]
+    public partial class Student
     {
-        public PaymenMethod()
-        {
-           this.Orthers = new HashSet<Orther>();
-        }
-         [Key]
-        public int PaymenMethodsID { get; set; }
+        [Key]
+        public int StudentId { get; set; }
         public string Name { get; set; }
+        public string Status { get; set; }
     
-       public virtual ICollection<Orther> Orthers { get; set; }
+        
     }
 }

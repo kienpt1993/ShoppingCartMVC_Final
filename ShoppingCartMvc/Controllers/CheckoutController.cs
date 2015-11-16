@@ -17,7 +17,11 @@ namespace ShoppingCartMvc.Controllers
         // GET: /Checkout/
         public ActionResult Index()
         {
-            return View(GetCart()); 
+
+            var db = new ShoppingCartEntities();
+            var payments = db.PaymenMethods.ToList();
+            ViewBag.Payments = payments;
+            return View(GetCart());
         }
         public MyCart GetCart()
         {
@@ -31,27 +35,30 @@ namespace ShoppingCartMvc.Controllers
         }
         public ActionResult Checkout()
         {
+
+
             return View(new Orther { });
         }
         [HttpPost]
-        public ActionResult AddToOrder()
+        public ActionResult AddToOrder(int PaymentMethod)
         {
             var db = new ShoppingCartEntities();
             if (GetCart() != null)
             {
                 var orther = new Orther
                 {
-                     Amout =  GetCart().SubTotal(),
-                      DateOrdered=DateTime.Now,
-                       Status = "Chưa thanh toán"
+                    Amout = GetCart().SubTotal(),
+                    DateOrdered = DateTime.Now,
+                    Status = "Chưa thanh toán",
+                    PaymenMethodsID = PaymentMethod
 
                 };
-            db.Orthers.Add(orther);
-            db.SaveChanges();
-            Session.Abandon();
+                db.Orthers.Add(orther);
+                db.SaveChanges();
+                Session.Abandon();
                 return RedirectToAction("Index");
             }
-             return RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
-	}
+    }
 }

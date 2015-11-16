@@ -10,6 +10,7 @@ namespace ShoppingCartMvc.Models
         public List<Category> cate = new List<Category>();
         public List<Brand> brand = new List<Brand>();
         public List<Product> pro = new List<Product>();
-     
+        public List<PaymenMethod> paymenMethod = new List<PaymenMethod>();
+
     }
 }

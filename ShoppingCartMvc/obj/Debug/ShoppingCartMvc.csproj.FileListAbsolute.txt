@@ -323,3 +323,11 @@ F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.Migrations.InitialCreate.res
 F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.csproj.GenerateResource.Cache
 F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.dll
 F:\GitHub\ShoppingCartMvc\obj\Debug\ShoppingCartMvc.pdb
+F:\GitHub\ShoppingCartMvc\bin\Facebook.dll
+F:\GitHub\ShoppingCartMvc\bin\Facebook.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Net.Http.Formatting.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Http.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Http.WebHost.dll
+F:\GitHub\ShoppingCartMvc\bin\System.Net.Http.Formatting.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Http.xml
+F:\GitHub\ShoppingCartMvc\bin\System.Web.Http.WebHost.xml
